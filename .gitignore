@@ -1,2 +1,22 @@
-[Tt]humbs.db
+# macOS metadata
 .DS_Store
+__MACOSX
+._*
+
+# Codex/local orchestration artifacts
+.codex-locks/
+AGENTS.md
+Agents/
+
+# Xcode user-local state
+*.xcuserstate
+xcuserdata/
+
+# Common local temp output
+*.tmp
+
+# Generated build/smoke logs
+Agents/Reports/*.log
+
+# Local-only oversized legacy archive (kept in workspace, excluded from GitHub push)
+Assets/Legacy/DragonArcadia/OriginalZip/Art.zip
