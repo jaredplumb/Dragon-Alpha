@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+
+body {
+	font-family:"arial";
+}
+
+a:link {
+	color:#1b4360;
+}
+
+a:visited {
+	color:#1b4360;
+}
+
+a:hover {
+	color:#1b4360;
+}
+
+img {
+	border:0px;
+}
+
+hr {
+	height:1px;
+	border-style:solid;
+	background-color:#000000;
+}
+
+p.indent {
+	text-indent:50px;
+	font-style:italic;
+	font-size:75%;
+}
+
+</style>
+<title></title>
+</head>
+<body>
+
+<div>
+
+<a href="#stats">Stats</a><br>
+<a href="#shops">Shops</a><br>
+<a href="#unlocks">Unlocks</a><br>
+
+<hr>
+
+<a name="stats">
+<h2>Stats</h2>
+<p>Strength - Increases health and attack.</p>
+<p>Vitality - Increases health and defense.</p>
+<p>Agility - Increases attack, defense, evade, and speed.</p>
+<p>Wisdom - Increases special and critical.</p>
+<p>Luck - Increases health, attack, defense, special, critical, evade, and speed.</p>
+<p>Health - The health stat is how much damage can be taken before being defeated.</p>
+	<p class="indent">Health = Strength * 25 + Vitality * 50 + Luck * 5</p>
+<p>Attack - Normal damage is in the range of the attack stat.</p>
+	<p class="indent">Min Attack = Strength * 5 + Luck * 1</p>
+	<p class="indent">Max Attack = Strength * 8 + Agility * 2 + Luck * 1</p>
+<p>Defense - All damage is reduced by the defense stat.</p>
+	<p class="indent">Min Defense = Vitality * 2 + Luck * 1</p>
+	<p class="indent">Max Defense = Vitality * 3 + Agility * 1 + Luck * 1</p>
+<p>Special - Usable powers, critical attacks, and evasion use the special stat to increase or decrease the damage.</p>
+	<p class="indent">Min Special = Wisdom * 5 + Luck * 1</p>
+	<p class="indent">Max Special = Wisdom * 9 + Agility * 1 + Luck * 1</p>
+<p>Critical - The percentage chance to add the special stat to damage.</p>
+	<p class="indent">Critical % = Wisdom / 18 + Luck / 6</p>
+<p>Evade - The percentage chance to decrease damage received by the special stat.</p>
+	<p class="indent">Evade % = Agility / 7 + Luck / 12</p>
+<p>Speed - The percentage increase until the units next turn (from 0.3 seconds to 1.8 seconds).  Speeds above 100% increase Attack, Defense, and Special.</p>
+	<p class="indent">Speed % = Agility / 6 + Luck / 18</p>
+
+<hr>
+
+<a name="shops">
+<h2>Shops</h2>
+<p>Uncommon Shop - Gives access to tier 2 scrolls and rings are 10% stronger.</p>
+<p>Rare Shop - Gives access to tier 2 and 3 scrolls and rings are 25% stronger.</p>
+<p>Training - Permanently increase stats.  The more you train a specific stat, the more expensive training that stat becomes.  Overall training becomes more expensive also.</p>
+
+<hr>
+
+<a name="unlocks">
+<h2>Unlocks</h2>
+<p>Zeus - Unlocks new random battles and high level bosses.  Gives access to new scrolls, statues, and artifacts.  The number of quests available is increased by 1 along with the chance for an additional boss.</p>
+<p>Hades - Unlocks new random battles and high level bosses.  Gives access to new scrolls, statues, and artifacts.  The number of quests available is increased by 1 along with the chance for an additional boss.</p>
+<p>Poseidon - Unlocks new random battles and high level bosses.  Gives access to new scrolls, statues, and artifacts.  The number of quests available is increased by 1 along with the chance for an additional boss.</p>
+<p>Epic Angel - Unlocks new random battles and high level bosses.  10 new Avatars are unlocked.  A new story is available.  Gives access to new scrolls, statues, and artifacts.  The number of quests available is increased by 1.</p>
+<p>Chaos - Unlocks a new avatar, new rings, a new scroll, and a new statue.</p>
+<p>Havoc - Unlocks a new avatar, new rings, a new scroll, and a new statue.</p>
+<p>Minion - Unlocks a new avatar, new rings, a new scroll, and a new statue.</p>
+<p>Panic - Unlocks a new avatar, new rings, a new scroll, and a new statue.</p>
+<p>Gremlin - Unlocks a new avatar, new rings, a new scroll, and a new statue.</p>
+
+</div>
+
+</body>
+</html>

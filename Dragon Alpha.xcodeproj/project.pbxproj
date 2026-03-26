@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0A4A5B1460EC2600B705AF /* Help.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F0A4A5A1460EC2600B705AF /* Help.html */; };
+		2F0E4ECE109FD26900EAC351 /* Global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EAD109FD26900EAC351 /* Global.cpp */; };
+		2F0E4ECF109FD26900EAC351 /* Splash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EAE109FD26900EAC351 /* Splash.cpp */; };
+		D20000000000000000000001 /* NewGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EBA109FD26900EAC351 /* NewGame.cpp */; };
+		D20000000000000000000002 /* WorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EC7109FD26900EAC351 /* WorldMap.cpp */; };
+		D20000000000000000000003 /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EC5109FD26900EAC351 /* Battle.cpp */; };
+		2F26756411C3323F009DC6CD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F26756311C3323F009DC6CD /* AudioToolbox.framework */; };
+		2F26756811C3324A009DC6CD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F26756711C3324A009DC6CD /* CFNetwork.framework */; };
+		2F26756E11C33263009DC6CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F26756D11C33263009DC6CD /* Foundation.framework */; };
+		2F26757011C3326A009DC6CD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F26756F11C3326A009DC6CD /* OpenAL.framework */; };
+		2F26757411C33273009DC6CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F26757311C33273009DC6CD /* QuartzCore.framework */; };
+		2F38E2E411DEE38E0033ADC9 /* EngineSystem_Apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E2E211DEE38E0033ADC9 /* EngineSystem_Apple.mm */; };
+		2F64B61815D1D50B005C3FED /* EngineImage_Apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F64B61715D1D50B005C3FED /* EngineImage_Apple.mm */; };
+		2F991EA50F9A1E8E00B247D5 /* UITransition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F991E6D0F9A1E8E00B247D5 /* UITransition.cpp */; };
+		2F991EA60F9A1E8E00B247D5 /* EngineImage_Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F991E6E0F9A1E8E00B247D5 /* EngineImage_Common.cpp */; };
+		2F991EAD0F9A1E8E00B247D5 /* EngineTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F991E770F9A1E8E00B247D5 /* EngineTypes.cpp */; };
+		2F991EB40F9A1E8E00B247D5 /* EngineFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F991E820F9A1E8E00B247D5 /* EngineFont.cpp */; };
+		2F991EBC0F9A1E8E00B247D5 /* EngineNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F991E8E0F9A1E8E00B247D5 /* EngineNode.cpp */; };
+		D60000000000000000000001 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D60000000000000000000011 /* Images */; };
+		D60000000000000000000002 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = D60000000000000000000012 /* Fonts */; };
+		D60000000000000000000003 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D60000000000000000000013 /* Sounds */; };
+		D10000000000000000000001 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10000000000000000000022 /* Cocoa.framework */; };
+		D10000000000000000000002 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10000000000000000000023 /* OpenGL.framework */; };
+		D10000000000000000000003 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10000000000000000000024 /* CoreAudio.framework */; };
+		D10000000000000000000004 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10000000000000000000025 /* WebKit.framework */; };
+		D1000000000000000000000C /* EngineSystem_Apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1000000000000000000002D /* EngineSystem_Apple.mm */; };
+		D30000000000000000000001 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D30000000000000000000011 /* Main.cpp */; };
+		D30000000000000000000002 /* NewAvatar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4EBC109FD26900EAC351 /* NewAvatar.cpp */; };
+		D30000000000000000000003 /* Status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E4ECB109FD26900EAC351 /* Status.cpp */; };
+		D30000000000000000000031 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30000000000000000000021 /* Metal.framework */; };
+		D30000000000000000000032 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30000000000000000000022 /* MetalKit.framework */; };
+		D30000000000000000000033 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D30000000000000000000023 /* libz.tbd */; };
+		D40000000000000000000001 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40000000000000000000002 /* ImageIO.framework */; };
+		D50000000000000000000001 /* EngineSound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D50000000000000000000011 /* EngineSound.cpp */; };
+		D50000000000000000000002 /* EngineSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D50000000000000000000012 /* EngineSystem.cpp */; };
+		D50000000000000000000003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50000000000000000000013 /* AVFoundation.framework */; };
+		D50000000000000000000004 /* EngineSound_Apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = D50000000000000000000014 /* EngineSound_Apple.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D30000000000000000000011 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = "Code/Main.cpp"; sourceTree = "<group>"; };
+		2F0A4A5A1460EC2600B705AF /* Help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Help.html; path = "Resources/Apple/Help.html"; sourceTree = "<group>"; };
+		2F0E4EAD109FD26900EAC351 /* Global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Global.cpp; path = "Code/Global.cpp"; sourceTree = "<group>"; };
+		2F0E4EAE109FD26900EAC351 /* Splash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Splash.cpp; path = "Code/Splash.cpp"; sourceTree = "<group>"; };
+		2F0E4EB9109FD26900EAC351 /* NewGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGame.h; path = "Code/NewGame.h"; sourceTree = "<group>"; };
+		2F0E4EBA109FD26900EAC351 /* NewGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NewGame.cpp; path = "Code/NewGame.cpp"; sourceTree = "<group>"; };
+		2F0E4EBB109FD26900EAC351 /* NewAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewAvatar.h; path = "Code/NewAvatar.h"; sourceTree = "<group>"; };
+		2F0E4EBC109FD26900EAC351 /* NewAvatar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NewAvatar.cpp; path = "Code/NewAvatar.cpp"; sourceTree = "<group>"; };
+		2F0E4EC3109FD26900EAC351 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = "Code/Global.h"; sourceTree = "<group>"; };
+		2F0E4EC5109FD26900EAC351 /* Battle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Battle.cpp; path = "Code/Battle.cpp"; sourceTree = "<group>"; };
+		2F0E4EC6109FD26900EAC351 /* WorldMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorldMap.h; path = "Code/WorldMap.h"; sourceTree = "<group>"; };
+		2F0E4EC7109FD26900EAC351 /* WorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WorldMap.cpp; path = "Code/WorldMap.cpp"; sourceTree = "<group>"; };
+		2F0E4ECA109FD26900EAC351 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Status.h; path = "Code/Status.h"; sourceTree = "<group>"; };
+		2F0E4ECB109FD26900EAC351 /* Status.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Status.cpp; path = "Code/Status.cpp"; sourceTree = "<group>"; };
+		2F0E4ECC109FD26900EAC351 /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Splash.h; path = "Code/Splash.h"; sourceTree = "<group>"; };
+		2F0E4ECD109FD26900EAC351 /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Battle.h; path = "Code/Battle.h"; sourceTree = "<group>"; };
+		2F26756311C3323F009DC6CD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2F26756711C3324A009DC6CD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2F26756D11C33263009DC6CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F26756F11C3326A009DC6CD /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		2F26757311C33273009DC6CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2F38E2E211DEE38E0033ADC9 /* EngineSystem_Apple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EngineSystem_Apple.mm; path = "Code/EngineSystem_Apple.mm"; sourceTree = SOURCE_ROOT; };
+		2F64B61715D1D50B005C3FED /* EngineImage_Apple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EngineImage_Apple.mm; path = "Code/EngineImage_Apple.mm"; sourceTree = SOURCE_ROOT; };
+		2F991E6D0F9A1E8E00B247D5 /* UITransition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UITransition.cpp; path = "Code/UITransition.cpp"; sourceTree = SOURCE_ROOT; };
+		2F991E6E0F9A1E8E00B247D5 /* EngineImage_Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineImage_Common.cpp; path = "Code/EngineImage_Common.cpp"; sourceTree = SOURCE_ROOT; };
+		2F991E770F9A1E8E00B247D5 /* EngineTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineTypes.cpp; path = "Code/EngineTypes.cpp"; sourceTree = SOURCE_ROOT; };
+		2F991E820F9A1E8E00B247D5 /* EngineFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineFont.cpp; path = "Code/EngineFont.cpp"; sourceTree = SOURCE_ROOT; };
+		2F991E8E0F9A1E8E00B247D5 /* EngineNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineNode.cpp; path = "Code/EngineNode.cpp"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000011 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = "Resources/Images"; sourceTree = "<group>"; };
+		D60000000000000000000012 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "Resources/Fonts"; sourceTree = "<group>"; };
+		D60000000000000000000013 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "Resources/Sounds"; sourceTree = "<group>"; };
+		D60000000000000000000021 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = "Code/Engine.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000022 /* EngineTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineTypes.h; path = "Code/EngineTypes.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000023 /* EngineSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineSystem.h; path = "Code/EngineSystem.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000024 /* EngineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineImage.h; path = "Code/EngineImage.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000025 /* EngineSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineSound.h; path = "Code/EngineSound.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000026 /* EngineFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineFont.h; path = "Code/EngineFont.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000027 /* EngineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EngineNode.h; path = "Code/EngineNode.h"; sourceTree = SOURCE_ROOT; };
+		D60000000000000000000028 /* UITransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITransition.h; path = "Code/UITransition.h"; sourceTree = SOURCE_ROOT; };
+		D10000000000000000000020 /* Dragon Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragon Alpha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10000000000000000000021 /* DragonAlpha.MacOS.Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DragonAlpha.MacOS.Info.plist; path = "Resources/Apple/DragonAlpha.MacOS.Info.plist"; sourceTree = "<group>"; };
+		D10000000000000000000022 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D10000000000000000000023 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D10000000000000000000024 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D10000000000000000000025 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D1000000000000000000002D /* EngineSystem_Apple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EngineSystem_Apple.mm; path = "Code/EngineSystem_Apple.mm"; sourceTree = SOURCE_ROOT; };
+		D30000000000000000000021 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		D30000000000000000000022 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		D30000000000000000000023 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D40000000000000000000002 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D50000000000000000000011 /* EngineSound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineSound.cpp; path = "Code/EngineSound.cpp"; sourceTree = SOURCE_ROOT; };
+		D50000000000000000000012 /* EngineSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EngineSystem.cpp; path = "Code/EngineSystem.cpp"; sourceTree = SOURCE_ROOT; };
+		D50000000000000000000013 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D50000000000000000000014 /* EngineSound_Apple.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EngineSound_Apple.mm; path = "Code/EngineSound_Apple.mm"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F26756411C3323F009DC6CD /* AudioToolbox.framework in Frameworks */,
+				2F26756811C3324A009DC6CD /* CFNetwork.framework in Frameworks */,
+				2F26756E11C33263009DC6CD /* Foundation.framework in Frameworks */,
+				2F26757011C3326A009DC6CD /* OpenAL.framework in Frameworks */,
+				D50000000000000000000003 /* AVFoundation.framework in Frameworks */,
+				2F26757411C33273009DC6CD /* QuartzCore.framework in Frameworks */,
+				D10000000000000000000001 /* Cocoa.framework in Frameworks */,
+				D10000000000000000000002 /* OpenGL.framework in Frameworks */,
+				D10000000000000000000003 /* CoreAudio.framework in Frameworks */,
+				D10000000000000000000004 /* WebKit.framework in Frameworks */,
+				D30000000000000000000031 /* Metal.framework in Frameworks */,
+				D30000000000000000000032 /* MetalKit.framework in Frameworks */,
+				D30000000000000000000033 /* libz.tbd in Frameworks */,
+				D40000000000000000000001 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F991E190F9A1DBA00B247D5 = {
+			isa = PBXGroup;
+			children = (
+				2F991E3F0F9A1E4E00B247D5 /* Code */,
+				2F991E3E0F9A1E4300B247D5 /* Resources */,
+				2F991E3D0F9A1E3B00B247D5 /* Frameworks */,
+				2F991E350F9A1DE500B247D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F991E350F9A1DE500B247D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000020 /* Dragon Alpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F991E3D0F9A1E3B00B247D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F26756311C3323F009DC6CD /* AudioToolbox.framework */,
+				2F26756711C3324A009DC6CD /* CFNetwork.framework */,
+				2F26756D11C33263009DC6CD /* Foundation.framework */,
+				2F26756F11C3326A009DC6CD /* OpenAL.framework */,
+				2F26757311C33273009DC6CD /* QuartzCore.framework */,
+				D10000000000000000000022 /* Cocoa.framework */,
+				D10000000000000000000023 /* OpenGL.framework */,
+				D10000000000000000000024 /* CoreAudio.framework */,
+				D10000000000000000000025 /* WebKit.framework */,
+				D30000000000000000000021 /* Metal.framework */,
+				D30000000000000000000022 /* MetalKit.framework */,
+				D30000000000000000000023 /* libz.tbd */,
+				D40000000000000000000002 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F991E3E0F9A1E4300B247D5 /* Resources */ = {
+			isa = PBXGroup;
+				children = (
+					D10000000000000000000021 /* DragonAlpha.MacOS.Info.plist */,
+					D60000000000000000000012 /* Fonts */,
+					2F0A4A5A1460EC2600B705AF /* Help.html */,
+					D60000000000000000000011 /* Images */,
+					D60000000000000000000013 /* Sounds */,
+				);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2F991E3F0F9A1E4E00B247D5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2F0E4EC5109FD26900EAC351 /* Battle.cpp */,
+				2F0E4ECD109FD26900EAC351 /* Battle.h */,
+				D60000000000000000000021 /* Engine.h */,
+				2F0E4EAD109FD26900EAC351 /* Global.cpp */,
+				2F0E4EC3109FD26900EAC351 /* Global.h */,
+				2F991E820F9A1E8E00B247D5 /* EngineFont.cpp */,
+				D60000000000000000000026 /* EngineFont.h */,
+				2F991E6E0F9A1E8E00B247D5 /* EngineImage_Common.cpp */,
+				2F64B61715D1D50B005C3FED /* EngineImage_Apple.mm */,
+				D60000000000000000000024 /* EngineImage.h */,
+				2F991E8E0F9A1E8E00B247D5 /* EngineNode.cpp */,
+				D60000000000000000000027 /* EngineNode.h */,
+				D50000000000000000000011 /* EngineSound.cpp */,
+				D50000000000000000000014 /* EngineSound_Apple.mm */,
+				D60000000000000000000025 /* EngineSound.h */,
+				D50000000000000000000012 /* EngineSystem.cpp */,
+				2F38E2E211DEE38E0033ADC9 /* EngineSystem_Apple.mm */,
+				D60000000000000000000023 /* EngineSystem.h */,
+				2F991E770F9A1E8E00B247D5 /* EngineTypes.cpp */,
+				D60000000000000000000022 /* EngineTypes.h */,
+				2F0E4EBC109FD26900EAC351 /* NewAvatar.cpp */,
+				2F0E4EBB109FD26900EAC351 /* NewAvatar.h */,
+				2F0E4EBA109FD26900EAC351 /* NewGame.cpp */,
+				2F0E4EB9109FD26900EAC351 /* NewGame.h */,
+				D30000000000000000000011 /* Main.cpp */,
+				2F0E4EAE109FD26900EAC351 /* Splash.cpp */,
+				2F0E4ECC109FD26900EAC351 /* Splash.h */,
+				2F0E4ECB109FD26900EAC351 /* Status.cpp */,
+				2F0E4ECA109FD26900EAC351 /* Status.h */,
+				2F991E6D0F9A1E8E00B247D5 /* UITransition.cpp */,
+				D60000000000000000000028 /* UITransition.h */,
+				2F0E4EC7109FD26900EAC351 /* WorldMap.cpp */,
+				2F0E4EC6109FD26900EAC351 /* WorldMap.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10000000000000000000041 /* Dragon Alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10000000000000000000052 /* Build configuration list for PBXNativeTarget "Dragon Alpha" */;
+			buildPhases = (
+				D10000000000000000000042 /* Resources */,
+				D10000000000000000000043 /* Sources */,
+				D10000000000000000000040 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dragon Alpha";
+			productName = "Dragon Alpha";
+			productReference = D10000000000000000000020 /* Dragon Alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F991E1B0F9A1DBA00B247D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 2F991E1E0F9A1DBA00B247D5 /* Build configuration list for PBXProject "Dragon Alpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2F991E190F9A1DBA00B247D5;
+			productRefGroup = 2F991E350F9A1DE500B247D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10000000000000000000041 /* Dragon Alpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60000000000000000000002 /* Fonts in Resources */,
+				D60000000000000000000001 /* Images in Resources */,
+				2F0A4A5B1460EC2600B705AF /* Help.html in Resources */,
+				D60000000000000000000003 /* Sounds in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F991EBC0F9A1E8E00B247D5 /* EngineNode.cpp in Sources */,
+				D50000000000000000000002 /* EngineSystem.cpp in Sources */,
+				2F38E2E411DEE38E0033ADC9 /* EngineSystem_Apple.mm in Sources */,
+				2F991EA50F9A1E8E00B247D5 /* UITransition.cpp in Sources */,
+				2F991EA60F9A1E8E00B247D5 /* EngineImage_Common.cpp in Sources */,
+				2F991EAD0F9A1E8E00B247D5 /* EngineTypes.cpp in Sources */,
+				2F991EB40F9A1E8E00B247D5 /* EngineFont.cpp in Sources */,
+				D50000000000000000000001 /* EngineSound.cpp in Sources */,
+				D50000000000000000000004 /* EngineSound_Apple.mm in Sources */,
+				2F64B61815D1D50B005C3FED /* EngineImage_Apple.mm in Sources */,
+				D30000000000000000000001 /* Main.cpp in Sources */,
+				2F0E4ECE109FD26900EAC351 /* Global.cpp in Sources */,
+				2F0E4ECF109FD26900EAC351 /* Splash.cpp in Sources */,
+				D20000000000000000000001 /* NewGame.cpp in Sources */,
+				D30000000000000000000002 /* NewAvatar.cpp in Sources */,
+				D20000000000000000000002 /* WorldMap.cpp in Sources */,
+				D20000000000000000000003 /* Battle.cpp in Sources */,
+				D30000000000000000000003 /* Status.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F991E1C0F9A1DBA00B247D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		2F991E1D0F9A1DBA00B247D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		D10000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_DEBUG,
+					"DG_PLATFORM_MACINTOSH=1",
+					"GL_SILENCE_DEPRECATION=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Apple/DragonAlpha.MacOS.Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dracosoft.DragonAlpha.macOS";
+				PRODUCT_NAME = "Dragon Alpha";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		D10000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DG_PLATFORM_MACINTOSH=1",
+					"GL_SILENCE_DEPRECATION=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Apple/DragonAlpha.MacOS.Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dracosoft.DragonAlpha.macOS";
+				PRODUCT_NAME = "Dragon Alpha";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F991E1E0F9A1DBA00B247D5 /* Build configuration list for PBXProject "Dragon Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F991E1C0F9A1DBA00B247D5 /* Debug */,
+				2F991E1D0F9A1DBA00B247D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10000000000000000000052 /* Build configuration list for PBXNativeTarget "Dragon Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10000000000000000000050 /* Debug */,
+				D10000000000000000000051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F991E1B0F9A1DBA00B247D5 /* Project object */;
+}

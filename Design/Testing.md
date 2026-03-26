@@ -1,0 +1,106 @@
+# Dragon Alpha Testing
+
+## Current Environment
+- Run commands from the repo root.
+- Smoke build: `./Agents/BuildSmoke.sh`.
+- Ownership check: `./Agents/ValidateEngineOwnership.sh`.
+- Deterministic runner: `./Agents/visual-validate.sh <case-id> [--require-png-capture]`.
+- World-map interaction regression group: `./Agents/ValidateWorldMapInteractionRegressionGroup.sh [--require-png-capture]`.
+- World-map interaction one-build group: `./Agents/RunVisualBatch.sh --group worldmap-interaction [--require-png-capture]`.
+- World-map interaction soak wrapper: `./Agents/SoakWorldMapInteractionRegressionGroup.sh [--iterations <count>] [--require-png-capture]`.
+- Batch proof runner: `./Agents/prove-visual-pipeline.sh [--require-png-capture] [case-id]`.
+- Full-suite batch runner: `./Agents/RunVisualBatch.sh [--case <case-id>] [--require-png-capture]`.
+- Runtime inputs: loose resources under `Resources/Images`, `Resources/Fonts`, `Resources/Sounds`, and `Resources/Music`.
+- Output root: `/tmp/dragon-alpha/visual-validation/<run-id>/<case-id>/`.
+- Batch output root: `/tmp/dragon-alpha/visual-batch/<run-id>/<case-id>/`.
+- Current status: 77 implemented deterministic DRAGON_TEST cases are available and kept aligned via `./Agents/ValidateTestingInventory.sh`.
+
+## Implemented Scenarios
+- Canonical implemented case IDs:
+- `Validation_Battle_CommandResolution`
+- `Validation_Battle_ElementalNeutralOutcome`
+- `Validation_Battle_ElementalResistOutcome`
+- `Validation_Battle_EnemyHealResponse`
+- `Validation_Battle_EnemySpecialResponse`
+- `Validation_Battle_Magic_SeededOutcome`
+- `Validation_Battle_MultiEnemyContinue`
+- `Validation_Battle_NoDamageResponse`
+- `Validation_Battle_SeededOutcome`
+- `Validation_Battle_TargetSelection`
+- `Validation_Battle_Tech_SeededOutcome`
+- `Validation_Battle_VictoryPanel`
+- `Validation_NewAvatar_Default`
+- `Validation_NewAvatar_MageStatus`
+- `Validation_NewAvatar_ThiefStatus`
+- `Validation_NewGame_CorruptRecovery`
+- `Validation_NewGame_Default`
+- `Validation_NewGame_DeleteConfirm`
+- `Validation_NewGame_FilledSlots`
+- `Validation_SaveLoad_LaterGameLoadoutState`
+- `Validation_SaveLoad_ProgressionState`
+- `Validation_SaveLoad_RoundTrip`
+- `Validation_Shop_Default`
+- `Validation_Shop_DuplicateOwned`
+- `Validation_Shop_InsufficientGold`
+- `Validation_Shop_InventoryFull`
+- `Validation_Shop_MultiPurchase`
+- `Validation_Shop_Purchase`
+- `Validation_Shop_ReturnToWorldMap`
+- `Validation_Splash_Default`
+- `Validation_Status_Default`
+- `Validation_Status_EquipArmor`
+- `Validation_Status_EquipRelic`
+- `Validation_Status_EquipWeapon`
+- `Validation_Status_LargeInventoryPaging`
+- `Validation_Status_SellEquippedWeapon`
+- `Validation_Status_SellScroll`
+- `Validation_Status_UnequipArmor`
+- `Validation_Status_UnequipRelic`
+- `Validation_Status_UnequipWeapon`
+- `Validation_Status_UnequipWeaponInventoryFull`
+- `Validation_Status_UsePotion`
+- `Validation_WorldMap_ActionTalk`
+- `Validation_WorldMap_AutoPathTreasure`
+- `Validation_WorldMap_ChallengeDecline`
+- `Validation_WorldMap_ChallengeDefeatPanel`
+- `Validation_WorldMap_ChallengeEvent`
+- `Validation_WorldMap_ChallengeVictoryProgression`
+- `Validation_WorldMap_CurrentTileRouteCancel`
+- `Validation_WorldMap_Default`
+- `Validation_WorldMap_FrontDoorRouteCancel`
+- `Validation_WorldMap_FrontDoorTalkRoute`
+- `Validation_WorldMap_FrontDoorShopNpcTalk`
+- `Validation_WorldMap_ActMissNoAdjacentInteract`
+- `Validation_WorldMap_ActMissThrottleRepeat`
+- `Validation_WorldMap_FrontDoorShopNpcActSouth`
+- `Validation_WorldMap_FrontDoorShopNpcActNorth`
+- `Validation_WorldMap_FrontDoorShopNpcActEast`
+- `Validation_WorldMap_FrontDoorShopNpcActWest`
+- `Validation_WorldMap_FrontDoorFacingPriority`
+- `Validation_WorldMap_FrontDoorFacingPriorityRetarget`
+- `Validation_WorldMap_RouteCancelImmediateAct`
+- `Validation_WorldMap_RouteCancelDirectionalRetarget`
+- `Validation_WorldMap_RouteTargetRetapThrottle`
+- `Validation_WorldMap_GateBattleEntry`
+- `Validation_WorldMap_GateBattleProgression`
+- `Validation_WorldMap_GateRouteMagnet`
+- `Validation_WorldMap_HealEvent`
+- `Validation_WorldMap_RandomBattleEntry`
+- `Validation_WorldMap_RandomBattleRetreat`
+- `Validation_WorldMap_ShopEntry`
+- `Validation_WorldMap_TechButton`
+- `Validation_WorldMap_TrainDecline`
+- `Validation_WorldMap_TrainEvent`
+- `Validation_WorldMap_TrainStatusGrowth`
+- `Validation_WorldMap_TrainToShopSequence`
+- `Validation_WorldMap_WarpTransition`
+
+## Manual Or Native Review Cases
+- Use `Design/Release-Readiness.md` as the single native-only first-push checklist.
+- Keep deterministic scenario expansion focused on reachable shipped behavior.
+- On capture-capable hosts, run deterministic cases with `--require-png-capture` for pixel-backed proof.
+
+## Future Scenarios
+- Add new deterministic IDs only when they represent durable runtime behavior that should regress-protect releases.
+- Keep deep execution artifacts in `Agents/Reports/` rather than expanding this file into per-case logs.
+- Promote only stable, recurring manual checks into `Design/Release-Readiness.md`.
