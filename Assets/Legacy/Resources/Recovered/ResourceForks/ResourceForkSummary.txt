@@ -1,0 +1,9 @@
+
+Summary
+-------
+mode: targeted
+candidates: 40
+exported: 28
+skipped (no/empty resource fork): 12
+output: Assets/Legacy/Resources/Recovered/ResourceForks
+manifest: Assets/Legacy/Resources/Recovered/ResourceForks/ResourceForkManifest.tsv

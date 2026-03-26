@@ -1,0 +1,16 @@
+asset_id	cdr_path	psd_path	decision	notes
+air_element	Assets/Images/Source/DragonArcadia/art/elements/air_element.cdr	Assets/Images/Source/DragonArcadia/art/elements/air_element.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+arena	Assets/Images/Source/DragonArcadia/art/start_screen/arena.cdr	Assets/Images/Source/DragonArcadia/art/start_screen/arena.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+background	Assets/Images/Source/DragonArcadia/art/background/background.cdr	Assets/Images/Source/DragonArcadia/art/background/background.psd	keep-cdr	psd likely derivative or intermediate; prefer cdr vector master
+dragon	Assets/Images/Source/DragonArcadia/art/monsters/dragon.cdr	Assets/Images/Source/DragonArcadia/art/enemies/dragon.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+dragon1	Assets/Images/Source/DragonArcadia/art/enemies/dragon1.cdr	Assets/Images/Source/DragonArcadia/art/enemies/dragon1.psd	keep-cdr	psd likely derivative or intermediate; prefer cdr vector master
+earth_element	Assets/Images/Source/DragonArcadia/art/elements/earth_element.cdr	Assets/Images/Source/DragonArcadia/art/elements/earth_element.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+elements	Assets/Images/Source/DragonArcadia/art/elements/elements.cdr	Assets/Images/Source/DragonArcadia/art/elements/elements.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+fire_element	Assets/Images/Source/DragonArcadia/art/elements/fire_element.cdr	Assets/Images/Source/DragonArcadia/art/elements/fire_element.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+fire_icon	Assets/Images/Source/DragonArcadia/art/elements/fire_icon.cdr	Assets/Images/Source/DragonArcadia/art/elements/fire_icon.psd	keep-cdr	psd likely derivative or intermediate; prefer cdr vector master
+floppy	Assets/Images/Source/DragonArcadia/art/hero_screen/floppy.cdr	Assets/Images/Source/DragonArcadia/art/hero_screen/floppy.psd	keep-cdr	psd likely derivative or intermediate; prefer cdr vector master
+graphic1	Assets/Images/Source/DragonArcadia/art/occupations/graphic1.cdr	Assets/Images/Source/DragonArcadia/art/background/graphic1.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+school_icons	Assets/Images/Source/DragonArcadia/art/schools/school_icons.cdr	Assets/Images/Source/DragonArcadia/art/schools/school_icons.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+shell	Assets/Images/Source/DragonArcadia/art/armors/shell.cdr	Assets/Images/Source/DragonArcadia/art/armors/shell.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+water_element	Assets/Images/Source/DragonArcadia/art/elements/water_element.cdr	Assets/Images/Source/DragonArcadia/art/elements/water_element.psd	keep-both	psd substantially larger than cdr; likely contains meaningful raster/layer edits
+weapons	Assets/Images/Source/DragonArcadia/art/weapons/weapons.cdr	Assets/Images/Source/DragonArcadia/art/schools/weapons.psd	keep-cdr	psd likely derivative or intermediate; prefer cdr vector master

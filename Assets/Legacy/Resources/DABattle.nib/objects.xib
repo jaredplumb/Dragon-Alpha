@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="8" name="allObjects">
+    <object class="IBCarbonWindow" id="180">
+      <string name="windowRect">197 228 384 369 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="bounds">0 0 187 141 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonButton" id="182">
+            <string name="bounds">33 0 53 141 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">129</int>
+            <string name="title">Attack</string>
+            <ostype name="command">Atta</ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="183">
+            <string name="bounds">65 0 85 141 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">130</int>
+            <string name="title">Defend</string>
+            <ostype name="command">Defe</ostype>
+          </object>
+          <object class="IBCarbonButton" id="184">
+            <string name="bounds">130 0 150 141 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">132</int>
+            <string name="title">Technique</string>
+            <ostype name="command">Tech</ostype>
+          </object>
+          <object class="IBCarbonButton" id="185">
+            <string name="bounds">162 0 182 141 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">133</int>
+            <string name="title">Run</string>
+            <ostype name="command">Run </ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonStaticText" id="187">
+            <string name="bounds">5 4 21 136 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">128</int>
+            <string name="title">HP:  99999 / 99999</string>
+          </object>
+          <object class="IBCarbonButton" id="188">
+            <string name="bounds">97 0 117 141 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">131</int>
+            <string name="title">Magic</string>
+            <ostype name="command">Magi</ostype>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="183"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <reference idRef="187"/>
+    <reference idRef="188"/>
+  </array>
+  <array count="8" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Options</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">189</unsigned_int>
+</object>

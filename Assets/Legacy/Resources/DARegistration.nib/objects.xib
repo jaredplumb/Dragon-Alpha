@@ -1,0 +1,130 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonWindow" id="180">
+      <string name="windowRect">58 61 305 546 </string>
+      <string name="title">Dragon Alpha Registration</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="bounds">0 0 247 485 </string>
+        <array count="15" name="subviews">
+          <object class="IBCarbonEditText" id="182">
+            <string name="bounds">45 165 61 462 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">129</int>
+          </object>
+          <object class="IBCarbonEditText" id="183">
+            <string name="bounds">21 165 37 462 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">128</int>
+          </object>
+          <object class="IBCarbonStaticText" id="184">
+            <string name="bounds">20 20 36 154 </string>
+            <string name="title">Registration Name:</string>
+          </object>
+          <object class="IBCarbonSeparator" id="186">
+            <string name="bounds">70 20 75 465 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="187">
+            <string name="bounds">81 20 97 154 </string>
+            <string name="title">Dragon Alpha:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="188">
+            <string name="bounds">81 162 97 465 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">130</int>
+            <string name="title">unregistered...</string>
+          </object>
+          <object class="IBCarbonButton" id="195">
+            <string name="bounds">207 109 227 190 </string>
+            <string name="title">Try First</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="196">
+            <string name="bounds">105 162 121 465 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">131</int>
+          </object>
+          <object class="IBCarbonStaticText" id="197">
+            <string name="bounds">44 20 60 154 </string>
+            <string name="title">Serial Number:</string>
+          </object>
+          <object class="IBCarbonButton" id="198">
+            <string name="bounds">207 295 227 376 </string>
+            <string name="title">Register</string>
+            <ostype name="command">ok  </ostype>
+          </object>
+          <object class="IBCarbonSeparator" id="199">
+            <string name="bounds">127 20 132 465 </string>
+          </object>
+          <object class="IBCarbonButton" id="204">
+            <string name="bounds">207 202 227 283 </string>
+            <string name="title">Cancel</string>
+            <ostype name="command">not!</ostype>
+          </object>
+          <object class="IBCarbonStaticText" id="205">
+            <string name="bounds">138 107 154 378 </string>
+            <string name="title">http://www.dracosoft.net/dragonalpha/</string>
+          </object>
+          <object class="IBCarbonStaticText" id="206">
+            <string name="bounds">162 195 178 290 </string>
+            <string name="title">Only $19.99</string>
+          </object>
+          <object class="IBCarbonSeparator" id="207">
+            <string name="bounds">184 20 189 465 </string>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="183"/>
+    <reference idRef="184"/>
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+    <reference idRef="188"/>
+    <reference idRef="195"/>
+    <reference idRef="196"/>
+    <reference idRef="197"/>
+    <reference idRef="198"/>
+    <reference idRef="199"/>
+    <reference idRef="204"/>
+    <reference idRef="205"/>
+    <reference idRef="206"/>
+    <reference idRef="207"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Registration</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">208</unsigned_int>
+</object>

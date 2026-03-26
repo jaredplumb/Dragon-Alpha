@@ -1,0 +1,14 @@
+Dragon Alpha Legacy Recovery Summary
+==================================
+Input: Assets/Archive/DragonAlpha.dmg
+Output: Assets/Legacy/Recovered/DragonAlphaDMG
+
+Recovered files:
+- Image files (.png/.jpg): 1596
+- Audio files (.wav/.aif/.aiff): 50
+- MIDI files (.mid/.midi): 32
+
+Notes:
+- If mounted extraction succeeded, files are under: Mounted/
+- Signature carving fallback output is under: Carved/
+- Carved JPEG files are best-effort and may include partial/invalid frames.

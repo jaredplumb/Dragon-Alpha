@@ -1,0 +1,1004 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="105" name="allObjects">
+    <object class="IBCarbonStaticText" id="956">
+      <string name="bounds">226 15 239 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Physical:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="957">
+      <string name="bounds">290 15 303 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Fire:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="959">
+      <string name="bounds">368 15 381 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Damage:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="961">
+      <string name="bounds">226 75 239 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">138</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">-300%</string>
+    </object>
+    <object class="IBCarbonStaticText" id="962">
+      <string name="bounds">15 15 31 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">128</int>
+      <string name="title">Name</string>
+    </object>
+    <object class="IBCarbonStaticText" id="963">
+      <string name="bounds">53 15 69 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">130</int>
+      <string name="title">Occupation</string>
+    </object>
+    <object class="IBCarbonStaticText" id="964">
+      <string name="bounds">118 15 131 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Gold:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="967">
+      <string name="bounds">196 75 209 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">137</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">9999</string>
+    </object>
+    <object class="IBCarbonButton" id="969">
+      <string name="bounds">458 236 475 283 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">158</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Info</string>
+      <ostype name="command">Info</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="970">
+      <string name="bounds">148 15 161 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Str:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="971">
+      <string name="bounds">400 15 413 67 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">148</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Element:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="972">
+      <string name="bounds">274 75 287 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">141</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">-300%</string>
+    </object>
+    <object class="IBCarbonStaticText" id="974">
+      <string name="bounds">430 15 443 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Absorb:</string>
+    </object>
+    <object class="IBCarbonButton" id="976">
+      <string name="bounds">458 291 475 337 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">159</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Drop</string>
+      <ostype name="command">Drop</ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="978">
+      <string name="bounds">102 15 115 67 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">HP:</string>
+    </object>
+    <object class="IBCarbonStaticText" id="979">
+      <string name="bounds">242 75 255 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">139</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">-300%</string>
+    </object>
+    <object class="IBCarbonStaticText" id="980">
+      <string name="bounds">148 75 161 162 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">134</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">9999</string>
+    </object>
+    <object class="IBCarbonRootControl" id="981">
+      <string name="bounds">0 0 524 524 </string>
+      <array count="59" name="subviews">
+        <reference idRef="962"/>
+        <object class="IBCarbonStaticText" id="1026">
+          <string name="bounds">34 15 50 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">129</int>
+          <string name="title">Heritage</string>
+        </object>
+        <reference idRef="963"/>
+        <reference idRef="978"/>
+        <object class="IBCarbonStaticText" id="1012">
+          <string name="bounds">86 15 99 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Lv:</string>
+        </object>
+        <reference idRef="964"/>
+        <reference idRef="970"/>
+        <object class="IBCarbonStaticText" id="1021">
+          <string name="bounds">164 15 177 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Def:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1004">
+          <string name="bounds">180 15 193 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Spd:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="989">
+          <string name="bounds">196 15 209 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Mag:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1001">
+          <string name="bounds">86 75 99 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">131</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">9999</string>
+        </object>
+        <object class="IBCarbonStaticText" id="985">
+          <string name="bounds">102 75 115 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">132</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">99999 / 99999</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1024">
+          <string name="bounds">118 75 131 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">133</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">999999</string>
+        </object>
+        <reference idRef="980"/>
+        <object class="IBCarbonStaticText" id="1023">
+          <string name="bounds">164 75 177 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">135</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">9999</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1018">
+          <string name="bounds">180 75 193 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">136</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">9999</string>
+        </object>
+        <reference idRef="967"/>
+        <object class="IBCarbonDBListView" id="988">
+          <string name="bounds">130 167 453 340 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">155</int>
+          <ostype name="command">Armr</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Armors/Others</string>
+            </object>
+          </array>
+        </object>
+        <object class="IBCarbonDBListView" id="1009">
+          <string name="bounds">12 342 478 515 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">156</int>
+          <ostype name="command">Item</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Items</string>
+            </object>
+          </array>
+        </object>
+        <object class="IBCarbonButton" id="1003">
+          <string name="bounds">458 170 475 228 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">157</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Equip</string>
+          <ostype name="command">Equp</ostype>
+        </object>
+        <reference idRef="969"/>
+        <reference idRef="976"/>
+        <object class="IBCarbonButton" id="1005">
+          <string name="bounds">492 208 509 280 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Done</string>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">2</int>
+        </object>
+        <object class="IBCarbonStaticText" id="1014">
+          <string name="bounds">306 75 319 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">143</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">-300%</string>
+        </object>
+        <object class="IBCarbonStaticText" id="986">
+          <string name="bounds">338 15 351 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Air:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1008">
+          <string name="bounds">290 75 303 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">142</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">-300%</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1020">
+          <string name="bounds">338 75 351 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">145</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">-300%</string>
+        </object>
+        <reference idRef="972"/>
+        <reference idRef="979"/>
+        <object class="IBCarbonStaticText" id="1027">
+          <string name="bounds">322 75 335 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">144</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">-300%</string>
+        </object>
+        <object class="IBCarbonStaticText" id="997">
+          <string name="bounds">274 15 287 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Dark:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="984">
+          <string name="bounds">258 75 271 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">140</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">-300%</string>
+        </object>
+        <reference idRef="957"/>
+        <object class="IBCarbonStaticText" id="994">
+          <string name="bounds">242 15 255 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Magical:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1022">
+          <string name="bounds">258 15 271 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Light:</string>
+        </object>
+        <reference idRef="961"/>
+        <object class="IBCarbonStaticText" id="1006">
+          <string name="bounds">306 15 319 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Water:</string>
+        </object>
+        <reference idRef="956"/>
+        <object class="IBCarbonStaticText" id="998">
+          <string name="bounds">322 15 335 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Earth:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1002">
+          <string name="bounds">368 75 381 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">146</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">99999</string>
+        </object>
+        <reference idRef="959"/>
+        <object class="IBCarbonStaticText" id="996">
+          <string name="bounds">400 75 413 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">149</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Element</string>
+        </object>
+        <object class="IBCarbonStaticText" id="990">
+          <string name="bounds">462 15 475 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Evade%:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1000">
+          <string name="bounds">384 75 397 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">147</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">100%</string>
+        </object>
+        <reference idRef="974"/>
+        <object class="IBCarbonStaticText" id="991">
+          <string name="bounds">446 15 459 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Mag Def:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1010">
+          <string name="bounds">430 75 443 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">150</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">99999</string>
+        </object>
+        <object class="IBCarbonStaticText" id="992">
+          <string name="bounds">446 75 459 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">151</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">99999</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1019">
+          <string name="bounds">462 75 475 162 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">152</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">100%</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1013">
+          <string name="bounds">384 15 397 67 </string>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Hit%:</string>
+        </object>
+        <reference idRef="971"/>
+        <object class="IBCarbonSeparator" id="1032">
+          <string name="bounds">481 15 482 512 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1034">
+          <string name="bounds">75 15 76 162 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1035">
+          <string name="bounds">137 15 138 162 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1036">
+          <string name="bounds">215 15 216 162 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1037">
+          <string name="bounds">357 15 358 162 </string>
+        </object>
+        <object class="IBCarbonSeparator" id="1038">
+          <string name="bounds">419 15 420 162 </string>
+        </object>
+        <object class="IBCarbonDBListView" id="1040">
+          <string name="bounds">12 167 69 340 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">153</int>
+          <ostype name="command">Weap</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <boolean name="vertScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Weapon</string>
+            </object>
+          </array>
+        </object>
+        <object class="IBCarbonDBListView" id="1041">
+          <string name="bounds">71 167 128 340 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">154</int>
+          <ostype name="command">Summ</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <boolean name="vertScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Summon</string>
+            </object>
+          </array>
+        </object>
+      </array>
+    </object>
+    <reference idRef="984"/>
+    <reference idRef="985"/>
+    <reference idRef="986"/>
+    <reference idRef="988"/>
+    <reference idRef="989"/>
+    <reference idRef="990"/>
+    <reference idRef="991"/>
+    <reference idRef="992"/>
+    <reference idRef="994"/>
+    <object class="IBCarbonWindow" id="995">
+      <string name="windowRect">48 7 572 531 </string>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="981"/>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="996"/>
+    <reference idRef="997"/>
+    <reference idRef="998"/>
+    <reference idRef="1000"/>
+    <reference idRef="1001"/>
+    <reference idRef="1002"/>
+    <reference idRef="1003"/>
+    <reference idRef="1004"/>
+    <reference idRef="1005"/>
+    <reference idRef="1006"/>
+    <reference idRef="1008"/>
+    <reference idRef="1009"/>
+    <reference idRef="1010"/>
+    <reference idRef="1012"/>
+    <reference idRef="1013"/>
+    <reference idRef="1014"/>
+    <reference idRef="1018"/>
+    <reference idRef="1019"/>
+    <reference idRef="1020"/>
+    <reference idRef="1021"/>
+    <reference idRef="1022"/>
+    <reference idRef="1023"/>
+    <reference idRef="1024"/>
+    <reference idRef="1026"/>
+    <reference idRef="1027"/>
+    <reference idRef="1032"/>
+    <reference idRef="1034"/>
+    <reference idRef="1035"/>
+    <reference idRef="1036"/>
+    <reference idRef="1037"/>
+    <reference idRef="1038"/>
+    <reference idRef="1040"/>
+    <reference idRef="1041"/>
+    <object class="IBCarbonWindow" id="1328">
+      <string name="windowRect">50 54 397 411 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="1329">
+        <string name="bounds">0 0 347 357 </string>
+        <array count="14" name="subviews">
+          <object class="IBCarbonDBListView" id="1330">
+            <string name="bounds">12 12 335 185 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">128</int>
+            <ostype name="command">List</ostype>
+            <int name="hiliteStyle">1</int>
+            <boolean name="variableWidthColumns">FALSE</boolean>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <int name="selectionFlags">2</int>
+            <array count="1" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyType">????</ostype>
+                <int name="propertyFlags">458752</int>
+                <int name="sortOrder">1</int>
+                <int name="minWidth">173</int>
+                <int name="maxWidth">173</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Magics</string>
+              </object>
+            </array>
+          </object>
+          <object class="IBCarbonStaticText" id="1331">
+            <string name="bounds">15 190 31 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">129</int>
+            <string name="title">Name</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1332">
+            <string name="bounds">48 190 61 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">131</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Pow:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1333">
+            <string name="bounds">64 190 77 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">133</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Element:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1334">
+            <string name="bounds">80 190 93 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">135</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Charge:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1335">
+            <string name="bounds">110 190 123 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">138</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Heal Magic</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1336">
+            <string name="bounds">126 190 139 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">139</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Attack All Magic</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1337">
+            <string name="bounds">80 249 93 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">136</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">999 / 999</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1338">
+            <string name="bounds">64 249 77 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">134</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Element</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1339">
+            <string name="bounds">48 249 61 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">132</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">999</string>
+          </object>
+          <object class="IBCarbonSeparator" id="1340">
+            <string name="bounds">37 190 38 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">130</int>
+          </object>
+          <object class="IBCarbonSeparator" id="1341">
+            <string name="bounds">99 190 100 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">137</int>
+          </object>
+          <object class="IBCarbonButton" id="1342">
+            <string name="bounds">315 270 332 342 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">140</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Cast</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="1343">
+            <string name="bounds">315 190 332 262 </string>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Cancel</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="1329"/>
+    <reference idRef="1330"/>
+    <reference idRef="1331"/>
+    <reference idRef="1332"/>
+    <reference idRef="1333"/>
+    <reference idRef="1334"/>
+    <reference idRef="1335"/>
+    <reference idRef="1336"/>
+    <reference idRef="1337"/>
+    <reference idRef="1338"/>
+    <reference idRef="1339"/>
+    <reference idRef="1340"/>
+    <reference idRef="1341"/>
+    <reference idRef="1342"/>
+    <reference idRef="1343"/>
+    <object class="IBCarbonStaticText" id="1344">
+      <string name="bounds">48 249 61 311 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">132</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">999</string>
+    </object>
+    <object class="IBCarbonButton" id="1345">
+      <string name="bounds">315 190 332 262 </string>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Cancel</string>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+    </object>
+    <object class="IBCarbonStaticText" id="1346">
+      <string name="bounds">110 190 123 311 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">138</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Heal Technique</string>
+    </object>
+    <object class="IBCarbonStaticText" id="1347">
+      <string name="bounds">64 249 77 311 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">134</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Element</string>
+    </object>
+    <object class="IBCarbonWindow" id="1348">
+      <string name="windowRect">50 54 397 411 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="1350">
+        <string name="bounds">0 0 347 357 </string>
+        <array count="14" name="subviews">
+          <object class="IBCarbonDBListView" id="1358">
+            <string name="bounds">12 12 335 185 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">128</int>
+            <ostype name="command">List</ostype>
+            <int name="hiliteStyle">1</int>
+            <boolean name="variableWidthColumns">FALSE</boolean>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <int name="selectionFlags">2</int>
+            <array count="1" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyType">????</ostype>
+                <int name="propertyFlags">458752</int>
+                <int name="sortOrder">1</int>
+                <int name="minWidth">173</int>
+                <int name="maxWidth">173</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Technique</string>
+              </object>
+            </array>
+          </object>
+          <object class="IBCarbonStaticText" id="1349">
+            <string name="bounds">15 190 31 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">129</int>
+            <string name="title">Name</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1352">
+            <string name="bounds">48 190 61 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">131</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Pow:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1357">
+            <string name="bounds">64 190 77 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">133</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Element:</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1351">
+            <string name="bounds">80 190 93 241 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">135</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Charge:</string>
+          </object>
+          <reference idRef="1346"/>
+          <object class="IBCarbonStaticText" id="1359">
+            <string name="bounds">126 190 139 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">139</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Attack All Technique</string>
+          </object>
+          <object class="IBCarbonStaticText" id="1354">
+            <string name="bounds">80 249 93 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">136</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">999 / 999</string>
+          </object>
+          <reference idRef="1347"/>
+          <reference idRef="1344"/>
+          <object class="IBCarbonSeparator" id="1355">
+            <string name="bounds">37 190 38 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">130</int>
+          </object>
+          <object class="IBCarbonSeparator" id="1353">
+            <string name="bounds">99 190 100 311 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">137</int>
+          </object>
+          <object class="IBCarbonButton" id="1356">
+            <string name="bounds">315 270 332 342 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">140</int>
+            <boolean name="small">TRUE</boolean>
+            <string name="title">Attack</string>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <reference idRef="1345"/>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="1349"/>
+    <reference idRef="1350"/>
+    <reference idRef="1351"/>
+    <reference idRef="1352"/>
+    <reference idRef="1353"/>
+    <reference idRef="1354"/>
+    <reference idRef="1355"/>
+    <reference idRef="1356"/>
+    <reference idRef="1357"/>
+    <reference idRef="1358"/>
+    <reference idRef="1359"/>
+    <object class="IBCarbonSeparator" id="1360">
+      <string name="bounds">413 15 414 357 </string>
+    </object>
+    <object class="IBCarbonButton" id="1361">
+      <string name="bounds">390 190 407 270 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">134</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Buy</string>
+      <ostype name="command">Buy </ostype>
+      <int name="buttonType">1</int>
+    </object>
+    <object class="IBCarbonStaticText" id="1362">
+      <string name="bounds">394 15 407 52 </string>
+      <ostype name="controlSignature">DrAl</ostype>
+      <int name="controlID">129</int>
+      <boolean name="small">TRUE</boolean>
+      <string name="title">Price:</string>
+    </object>
+    <object class="IBCarbonRootControl" id="1363">
+      <string name="bounds">0 0 456 369 </string>
+      <array count="10" name="subviews">
+        <object class="IBCarbonDBListView" id="1370">
+          <string name="bounds">12 187 357 360 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">131</int>
+          <ostype name="command">Item</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Items</string>
+            </object>
+          </array>
+        </object>
+        <object class="IBCarbonDBListView" id="1366">
+          <string name="bounds">12 12 389 185 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">128</int>
+          <ostype name="command">Shop</ostype>
+          <int name="hiliteStyle">1</int>
+          <boolean name="variableWidthColumns">FALSE</boolean>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <int name="selectionFlags">2</int>
+          <array count="1" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyType">????</ostype>
+              <int name="propertyFlags">458752</int>
+              <int name="sortOrder">1</int>
+              <int name="minWidth">173</int>
+              <int name="maxWidth">173</int>
+              <int name="textAlignment">-2</int>
+            </object>
+          </array>
+        </object>
+        <reference idRef="1361"/>
+        <object class="IBCarbonButton" id="1367">
+          <string name="bounds">390 278 407 357 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">135</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Info</string>
+          <ostype name="command">Info</ostype>
+        </object>
+        <reference idRef="1362"/>
+        <object class="IBCarbonStaticText" id="1371">
+          <string name="bounds">394 60 407 182 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">130</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">999999g</string>
+        </object>
+        <object class="IBCarbonButton" id="1364">
+          <string name="bounds">424 148 441 220 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Done</string>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+        </object>
+        <reference idRef="1360"/>
+        <object class="IBCarbonStaticText" id="1369">
+          <string name="bounds">362 190 375 227 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">132</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">Gold:</string>
+        </object>
+        <object class="IBCarbonStaticText" id="1368">
+          <string name="bounds">362 235 375 357 </string>
+          <ostype name="controlSignature">DrAl</ostype>
+          <int name="controlID">133</int>
+          <boolean name="small">TRUE</boolean>
+          <string name="title">999999g</string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="1364"/>
+    <object class="IBCarbonWindow" id="1365">
+      <string name="windowRect">72 195 528 564 </string>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="1363"/>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="1366"/>
+    <reference idRef="1367"/>
+    <reference idRef="1368"/>
+    <reference idRef="1369"/>
+    <reference idRef="1370"/>
+    <reference idRef="1371"/>
+  </array>
+  <array count="105" name="allParents">
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="995"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="1"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="981"/>
+    <reference idRef="1"/>
+    <reference idRef="1328"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1329"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1"/>
+    <reference idRef="1350"/>
+    <reference idRef="1348"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1350"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1365"/>
+    <reference idRef="1363"/>
+    <reference idRef="1"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+    <reference idRef="1363"/>
+  </array>
+  <dictionary count="5" name="nameTable">
+    <string>Equipment</string>
+    <reference idRef="995"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Magic</string>
+    <reference idRef="1328"/>
+    <string>Shop</string>
+    <reference idRef="1365"/>
+    <string>Tech</string>
+    <reference idRef="1348"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">1372</unsigned_int>
+</object>

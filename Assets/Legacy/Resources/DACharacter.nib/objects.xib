@@ -1,0 +1,411 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="46" name="allObjects">
+    <object class="IBCarbonWindow" id="180">
+      <string name="windowRect">210 300 336 583 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="bounds">0 0 126 283 </string>
+        <array count="4" name="subviews">
+          <object class="IBCarbonEditText" id="182">
+            <string name="bounds">47 23 63 260 </string>
+            <ostype name="controlSignature">DrAl</ostype>
+            <int name="controlID">128</int>
+          </object>
+          <object class="IBCarbonButton" id="183">
+            <string name="bounds">86 193 106 263 </string>
+            <string name="title">Next</string>
+            <ostype name="command">NeA2</ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="184">
+            <string name="bounds">86 111 106 181 </string>
+            <string name="title">Cancel</string>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonStaticText" id="185">
+            <string name="bounds">20 20 36 263 </string>
+            <string name="title">Enter your name:</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="183"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <object class="IBCarbonWindow" id="186">
+      <string name="windowRect">68 73 254 529 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="187">
+        <string name="bounds">0 0 186 456 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonButton" id="188">
+            <string name="bounds">146 193 166 263 </string>
+            <string name="title">Back</string>
+            <ostype name="command">New1</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="189">
+            <string name="bounds">44 20 80 152 </string>
+            <ostype name="command">NeA3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10000</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="203">
+            <string name="bounds">44 162 80 294 </string>
+            <ostype name="command">NeB3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10001</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+          <object class="IBCarbonStaticText" id="213">
+            <string name="bounds">20 20 36 436 </string>
+            <string name="title">Select your map picture:</string>
+          </object>
+          <object class="IBCarbonBevelButton" id="214">
+            <string name="bounds">44 304 80 436 </string>
+            <ostype name="command">NeC3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10002</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="215">
+            <string name="bounds">90 20 126 152 </string>
+            <ostype name="command">NeD3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10003</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="216">
+            <string name="bounds">90 162 126 294 </string>
+            <ostype name="command">NeE3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10004</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="217">
+            <string name="bounds">90 304 126 436 </string>
+            <ostype name="command">NeF3</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">10005</int>
+            <int name="graphicAlignment">3</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="187"/>
+    <reference idRef="188"/>
+    <reference idRef="189"/>
+    <object class="IBCarbonWindow" id="190">
+      <string name="windowRect">169 265 341 685 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="191">
+        <string name="bounds">0 0 172 420 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="196">
+            <string name="bounds">132 175 152 245 </string>
+            <string name="title">Back</string>
+            <ostype name="command">New2</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="200">
+            <string name="bounds">44 20 112 88 </string>
+            <ostype name="command">NeA4</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">20000</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="205">
+            <string name="bounds">44 98 112 166 </string>
+            <ostype name="command">NeB4</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">20001</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="206">
+            <string name="bounds">44 176 112 244 </string>
+            <ostype name="command">NeC4</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">20002</int>
+          </object>
+          <object class="IBCarbonStaticText" id="212">
+            <string name="bounds">20 20 36 244 </string>
+            <string name="title">Select your battle picture:</string>
+          </object>
+          <object class="IBCarbonBevelButton" id="236">
+            <string name="bounds">44 254 112 322 </string>
+            <ostype name="command">NeD4</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">20003</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="237">
+            <string name="bounds">44 332 112 400 </string>
+            <ostype name="command">NeE4</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">20004</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="191"/>
+    <object class="IBCarbonWindow" id="192">
+      <string name="windowRect">89 261 527 703 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="193">
+        <string name="bounds">0 0 438 442 </string>
+        <array count="10" name="subviews">
+          <object class="IBCarbonButton" id="197">
+            <string name="bounds">398 175 418 245 </string>
+            <string name="title">Back</string>
+            <ostype name="command">New3</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="221">
+            <string name="bounds">44 20 120 216 </string>
+            <ostype name="command">NeA5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3000</int>
+          </object>
+          <object class="IBCarbonStaticText" id="222">
+            <string name="bounds">20 20 36 422 </string>
+            <string name="title">Select your elemental herritage:</string>
+          </object>
+          <object class="IBCarbonBevelButton" id="223">
+            <string name="bounds">44 226 120 422 </string>
+            <ostype name="command">NeB5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3001</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="224">
+            <string name="bounds">130 20 206 216 </string>
+            <ostype name="command">NeC5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3002</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="225">
+            <string name="bounds">130 226 206 422 </string>
+            <ostype name="command">NeD5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3003</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="226">
+            <string name="bounds">216 20 292 216 </string>
+            <ostype name="command">NeE5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3004</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="227">
+            <string name="bounds">216 226 292 422 </string>
+            <ostype name="command">NeF5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3005</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="228">
+            <string name="bounds">302 20 378 216 </string>
+            <ostype name="command">NeG5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3006</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="229">
+            <string name="bounds">302 226 378 422 </string>
+            <ostype name="command">NeH5</ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">3007</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="193"/>
+    <object class="IBCarbonWindow" id="194">
+      <string name="windowRect">90 138 356 786 </string>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="195">
+        <string name="bounds">0 0 266 648 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="198">
+            <string name="bounds">226 289 246 359 </string>
+            <string name="title">Back</string>
+            <ostype name="command">New4</ostype>
+            <int name="buttonType">2</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="202">
+            <string name="bounds">44 20 120 216 </string>
+            <ostype name="command">okA </ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">4000</int>
+          </object>
+          <object class="IBCarbonStaticText" id="230">
+            <string name="bounds">20 20 36 628 </string>
+            <string name="title">Select your training:</string>
+          </object>
+          <object class="IBCarbonBevelButton" id="231">
+            <string name="bounds">44 226 120 422 </string>
+            <ostype name="command">okB </ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">4001</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="232">
+            <string name="bounds">44 432 120 628 </string>
+            <ostype name="command">okC </ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">4002</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="233">
+            <string name="bounds">130 20 206 216 </string>
+            <ostype name="command">okD </ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">4003</int>
+          </object>
+          <object class="IBCarbonBevelButton" id="234">
+            <string name="bounds">130 226 206 422 </string>
+            <ostype name="command">okE </ostype>
+            <int name="contentType">3</int>
+            <int name="contentResID">4004</int>
+          </object>
+        </array>
+      </object>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="themeBrush">1</int>
+      <int name="windowPosition">1</int>
+    </object>
+    <reference idRef="195"/>
+    <reference idRef="196"/>
+    <reference idRef="197"/>
+    <reference idRef="198"/>
+    <reference idRef="200"/>
+    <reference idRef="202"/>
+    <reference idRef="203"/>
+    <reference idRef="205"/>
+    <reference idRef="206"/>
+    <reference idRef="212"/>
+    <reference idRef="213"/>
+    <reference idRef="214"/>
+    <reference idRef="215"/>
+    <reference idRef="216"/>
+    <reference idRef="217"/>
+    <reference idRef="221"/>
+    <reference idRef="222"/>
+    <reference idRef="223"/>
+    <reference idRef="224"/>
+    <reference idRef="225"/>
+    <reference idRef="226"/>
+    <reference idRef="227"/>
+    <reference idRef="228"/>
+    <reference idRef="229"/>
+    <reference idRef="230"/>
+    <reference idRef="231"/>
+    <reference idRef="232"/>
+    <reference idRef="233"/>
+    <reference idRef="234"/>
+    <reference idRef="236"/>
+    <reference idRef="237"/>
+  </array>
+  <array count="46" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="1"/>
+    <reference idRef="190"/>
+    <reference idRef="1"/>
+    <reference idRef="192"/>
+    <reference idRef="1"/>
+    <reference idRef="194"/>
+    <reference idRef="191"/>
+    <reference idRef="193"/>
+    <reference idRef="195"/>
+    <reference idRef="191"/>
+    <reference idRef="195"/>
+    <reference idRef="187"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="195"/>
+    <reference idRef="195"/>
+    <reference idRef="195"/>
+    <reference idRef="195"/>
+    <reference idRef="195"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+  </array>
+  <dictionary count="17" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>NSCustomView</string>
+    <reference idRef="202"/>
+    <string>NSCustomView1</string>
+    <reference idRef="223"/>
+    <string>NSCustomView11</string>
+    <reference idRef="232"/>
+    <string>NSCustomView12</string>
+    <reference idRef="233"/>
+    <string>NSCustomView13</string>
+    <reference idRef="234"/>
+    <string>NSCustomView2</string>
+    <reference idRef="224"/>
+    <string>NSCustomView3</string>
+    <reference idRef="225"/>
+    <string>NSCustomView4</string>
+    <reference idRef="226"/>
+    <string>NSCustomView5</string>
+    <reference idRef="227"/>
+    <string>NSCustomView6</string>
+    <reference idRef="228"/>
+    <string>NSCustomView7</string>
+    <reference idRef="229"/>
+    <string>NewGame1</string>
+    <reference idRef="180"/>
+    <string>NewGame2</string>
+    <reference idRef="186"/>
+    <string>NewGame3</string>
+    <reference idRef="190"/>
+    <string>NewGame4</string>
+    <reference idRef="192"/>
+    <string>NewGame5</string>
+    <reference idRef="194"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">238</unsigned_int>
+</object>

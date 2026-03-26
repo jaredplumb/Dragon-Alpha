@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Main>
+	<Images src="Images/*.png" />
+	<Fonts src="Fonts/*.txt" />
+	<Sounds src="Sounds/*.wav" />
+</Main>

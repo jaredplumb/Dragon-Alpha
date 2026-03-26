@@ -1,0 +1,3 @@
+    1064 Assets/Legacy/Recovered/DragonAlphaDMG/Analysis/image-dimensions.tsv
+      12 Assets/Legacy/Recovered/DragonAlphaDMG/Analysis/candidate-images.tsv
+    1076 total

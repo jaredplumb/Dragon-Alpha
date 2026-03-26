@@ -1,0 +1,18 @@
+Recovered Asset Curation Summary
+================================
+Curated images: 144
+Curated audio: 16
+Curated midi: 10
+Rejected files: 1463
+
+Recovered override images staged: 128
+Recovered override sounds staged: 7
+Mapped overrides from recovered checksums: 222
+Legacy area overrides injected: 24
+
+Manifests:
+- Assets/Legacy/Recovered/DragonAlphaDMG/Manifest/curated-images.tsv
+- Assets/Legacy/Recovered/DragonAlphaDMG/Manifest/curated-audio.tsv
+- Assets/Legacy/Recovered/DragonAlphaDMG/Manifest/curated-midi.tsv
+- Assets/Legacy/Recovered/DragonAlphaDMG/Manifest/rejected-files.tsv
+- Assets/Legacy/Recovered/DragonAlphaDMG/Manifest/runtime-override-mapping.tsv
